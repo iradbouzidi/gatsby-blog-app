@@ -24,6 +24,7 @@ const IndexPage = () => (
                     date={node.frontmatter.date}
                     path={node.frontmatter.path}
                     fluid={node.frontmatter.image.childImageSharp.fluid}
+                    tags={node.frontmatter.tags}
                   />
                 ))}
               </div>
@@ -62,6 +63,7 @@ const indexQuery = graphql`
                 }
               }
             }
+            tags
           }
           excerpt
         }
