@@ -1,11 +1,10 @@
 ---
-title: "Fourth Post - CSS"
+title: 'Fourth Post - CSS'
 date: 2018-12-04 07:00:00
-author: "Jane Doe"
+author: 'Jane Doe'
 image: ../../images/javascript.jpg
 tags:
   - tutorial
-path: "/fourth-post"
 ---
 
 New post on Netlify
